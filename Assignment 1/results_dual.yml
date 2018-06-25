@@ -1,0 +1,101 @@
+# ==========================================================
+# = Solver Results                                         =
+# ==========================================================
+# ----------------------------------------------------------
+#   Problem Information
+# ----------------------------------------------------------
+Problem: 
+- Name: unknown
+  Lower bound: -1705.0
+  Upper bound: -1705.0
+  Number of objectives: 1
+  Number of constraints: 101
+  Number of variables: 21
+  Number of nonzeros: 201
+  Sense: maximize
+# ----------------------------------------------------------
+#   Solver Information
+# ----------------------------------------------------------
+Solver: 
+- Status: ok
+  Termination condition: optimal
+  Statistics: 
+    Branch and bound: 
+      Number of bounded subproblems: 0
+      Number of created subproblems: 0
+  Error rc: 0
+  Time: 0.0551590919495
+# ----------------------------------------------------------
+#   Solution Information
+# ----------------------------------------------------------
+Solution: 
+- number of solutions: 1
+  number of solutions displayed: 1
+- Gap: 0.0
+  Status: feasible
+  Message: None
+  Objective:
+    OBJ:
+      Value: -1705
+  Variable:
+    alpha[10]:
+      Value: -1
+    alpha[1]:
+      Value: -1
+    alpha[2]:
+      Value: -1
+    alpha[3]:
+      Value: -1
+    alpha[4]:
+      Value: -1
+    alpha[5]:
+      Value: -1
+    alpha[6]:
+      Value: -1
+    alpha[7]:
+      Value: -1
+    alpha[8]:
+      Value: -1
+    alpha[9]:
+      Value: -1
+  Constraint:
+    dual_constraint[1,1]:
+      Dual: 140
+    dual_constraint[1,8]:
+      Dual: 120
+    dual_constraint[10,3]:
+      Dual: 50
+    dual_constraint[2,1]:
+      Dual: 10.0
+    dual_constraint[2,4]:
+      Dual: 82.2222222222
+    dual_constraint[2,5]:
+      Dual: 13.5555555556
+    dual_constraint[2,7]:
+      Dual: 105
+    dual_constraint[3,5]:
+      Dual: 45.0
+    dual_constraint[3,9]:
+      Dual: 75
+    dual_constraint[4,10]:
+      Dual: 25.1014492754
+    dual_constraint[4,2]:
+      Dual: 90
+    dual_constraint[4,5]:
+      Dual: 17.0241545894
+    dual_constraint[5,10]:
+      Dual: 70
+    dual_constraint[6,10]:
+      Dual: 54.8641392204
+    dual_constraint[6,6]:
+      Dual: 40.1777927719
+    dual_constraint[7,10]:
+      Dual: 10.0344115042
+    dual_constraint[7,3]:
+      Dual: 30
+    dual_constraint[7,6]:
+      Dual: 54.8222072281
+    dual_constraint[8,4]:
+      Dual: 27.7777777778
+    dual_constraint[9,5]:
+      Dual: 59.4202898551

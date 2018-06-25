@@ -1,0 +1,87 @@
+# ==========================================================
+# = Solver Results                                         =
+# ==========================================================
+# ----------------------------------------------------------
+#   Problem Information
+# ----------------------------------------------------------
+Problem: 
+- Name: unknown
+  Lower bound: -1705.0
+  Upper bound: -1705.0
+  Number of objectives: 1
+  Number of constraints: 101
+  Number of variables: 21
+  Number of nonzeros: 201
+  Sense: maximize
+# ----------------------------------------------------------
+#   Solver Information
+# ----------------------------------------------------------
+Solver: 
+- Status: ok
+  Termination condition: optimal
+  Statistics: 
+    Branch and bound: 
+      Number of bounded subproblems: 0
+      Number of created subproblems: 0
+  Error rc: 0
+  Time: 0.0239760875702
+# ----------------------------------------------------------
+#   Solution Information
+# ----------------------------------------------------------
+Solution: 
+- number of solutions: 1
+  number of solutions displayed: 1
+- Gap: 0.0
+  Status: feasible
+  Message: None
+  Objective:
+    OBJ:
+      Value: -1705
+  Variable:
+    y[10]:
+      Value: -1
+    y[1]:
+      Value: -1
+    y[2]:
+      Value: -1
+    y[3]:
+      Value: -1
+    y[4]:
+      Value: -1
+    y[5]:
+      Value: -1
+    y[6]:
+      Value: -1
+    y[7]:
+      Value: -1
+    y[8]:
+      Value: -1
+    y[9]:
+      Value: -1
+  Constraint:
+    cons[20]:
+      Dual: 75
+    cons[22]:
+      Dual: 69.2307692308
+    cons[36]:
+      Dual: 40
+    cons[50]:
+      Dual: 70
+    cons[55]:
+      Dual: 59.375
+    cons[5]:
+      Dual: 2.5
+    cons[63]:
+      Dual: 35.46875
+    cons[6]:
+      Dual: 55
+    cons[70]:
+      Dual: 15
+    cons[74]:
+      Dual: 27.7777777778
+    cons[85]:
+      Dual: 59.4202898551
+    cons[93]:
+      Dual: 44.53125
+    cons[95]:
+      Dual: 5.810546875

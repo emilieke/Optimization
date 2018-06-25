@@ -1,0 +1,101 @@
+# ==========================================================
+# = Solver Results                                         =
+# ==========================================================
+# ----------------------------------------------------------
+#   Problem Information
+# ----------------------------------------------------------
+Problem: 
+- Name: unknown
+  Lower bound: -1705.0
+  Upper bound: -1705.0
+  Number of objectives: 1
+  Number of constraints: 21
+  Number of variables: 121
+  Number of nonzeros: 221
+  Sense: minimize
+# ----------------------------------------------------------
+#   Solver Information
+# ----------------------------------------------------------
+Solver: 
+- Status: ok
+  Termination condition: optimal
+  Statistics: 
+    Branch and bound: 
+      Number of bounded subproblems: 0
+      Number of created subproblems: 0
+  Error rc: 0
+  Time: 0.0176861286163
+# ----------------------------------------------------------
+#   Solution Information
+# ----------------------------------------------------------
+Solution: 
+- number of solutions: 1
+  number of solutions displayed: 1
+- Gap: 0.0
+  Status: feasible
+  Message: None
+  Objective:
+    OBJ:
+      Value: -1705
+  Variable:
+    x[15]:
+      Value: 7.52688172043
+    x[20]:
+      Value: 69.3548387097
+    x[22]:
+      Value: 69.2307692308
+    x[36]:
+      Value: 40
+    x[50]:
+      Value: 70
+    x[56]:
+      Value: 54.2857142857
+    x[5]:
+      Value: 65.8333333333
+    x[63]:
+      Value: 30
+    x[6]:
+      Value: 0.714285714286
+    x[70]:
+      Value: 20.6451612903
+    x[74]:
+      Value: 27.7777777778
+    x[85]:
+      Value: 59.4202898551
+    x[93]:
+      Value: 50
+    z[11]:
+      Value: 150
+    z[12]:
+      Value: 20.7692307692
+    z[14]:
+      Value: 82.2222222222
+    z[15]:
+      Value: 2.21949509116
+    z[17]:
+      Value: 105
+    z[18]:
+      Value: 120
+    z[19]:
+      Value: 75
+  Constraint:
+    cons[10]:
+      Dual: -1
+    cons[1]:
+      Dual: -1
+    cons[2]:
+      Dual: -1
+    cons[3]:
+      Dual: -1
+    cons[4]:
+      Dual: -1
+    cons[5]:
+      Dual: -1
+    cons[6]:
+      Dual: -1
+    cons[7]:
+      Dual: -1
+    cons[8]:
+      Dual: -1
+    cons[9]:
+      Dual: -1

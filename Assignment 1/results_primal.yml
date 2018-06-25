@@ -1,0 +1,101 @@
+# ==========================================================
+# = Solver Results                                         =
+# ==========================================================
+# ----------------------------------------------------------
+#   Problem Information
+# ----------------------------------------------------------
+Problem: 
+- Name: unknown
+  Lower bound: -1705.0
+  Upper bound: -1705.0
+  Number of objectives: 1
+  Number of constraints: 21
+  Number of variables: 121
+  Number of nonzeros: 221
+  Sense: minimize
+# ----------------------------------------------------------
+#   Solver Information
+# ----------------------------------------------------------
+Solver: 
+- Status: ok
+  Termination condition: optimal
+  Statistics: 
+    Branch and bound: 
+      Number of bounded subproblems: 0
+      Number of created subproblems: 0
+  Error rc: 0
+  Time: 0.0177390575409
+# ----------------------------------------------------------
+#   Solution Information
+# ----------------------------------------------------------
+Solution: 
+- number of solutions: 1
+  number of solutions displayed: 1
+- Gap: 0.0
+  Status: feasible
+  Message: None
+  Objective:
+    OBJ:
+      Value: -1705
+  Variable:
+    x[1,5]:
+      Value: 65.8333333333
+    x[1,6]:
+      Value: 0.714285714286
+    x[10,3]:
+      Value: 50
+    x[2,10]:
+      Value: 69.3548387097
+    x[2,5]:
+      Value: 7.52688172043
+    x[3,2]:
+      Value: 69.2307692308
+    x[4,6]:
+      Value: 40
+    x[5,10]:
+      Value: 70
+    x[6,6]:
+      Value: 54.2857142857
+    x[7,10]:
+      Value: 20.6451612903
+    x[7,3]:
+      Value: 30
+    x[8,4]:
+      Value: 27.7777777778
+    x[9,5]:
+      Value: 59.4202898551
+    y[1]:
+      Value: 150
+    y[2]:
+      Value: 20.7692307692
+    y[4]:
+      Value: 82.2222222222
+    y[5]:
+      Value: 2.21949509116
+    y[7]:
+      Value: 105
+    y[8]:
+      Value: 120
+    y[9]:
+      Value: 75
+  Constraint:
+    budget_constraint[10]:
+      Dual: -1
+    budget_constraint[1]:
+      Dual: -1
+    budget_constraint[2]:
+      Dual: -1
+    budget_constraint[3]:
+      Dual: -1
+    budget_constraint[4]:
+      Dual: -1
+    budget_constraint[5]:
+      Dual: -1
+    budget_constraint[6]:
+      Dual: -1
+    budget_constraint[7]:
+      Dual: -1
+    budget_constraint[8]:
+      Dual: -1
+    budget_constraint[9]:
+      Dual: -1
